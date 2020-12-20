@@ -6,12 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+
+## [1.0.0] - 2020-12-20
 ### Changed
 - Adapted bizstyle theme with a new stylesheet.
 
 
-<!-- ## [1.0.0] - YYYY-MM-DD -->
-
-
-<!-- [Unreleased]: https://github.com/miaowware/miaowware_sphinx_theme/compare/1.0.0...HEAD -->
-<!-- [1.0.0]: https://github.com/miaowware/miaowware_sphinx_theme/releases/tag/1.0.0 -->
+[Unreleased]: https://github.com/miaowware/miaowware_sphinx_theme/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/miaowware/miaowware_sphinx_theme/releases/tag/1.0.0
