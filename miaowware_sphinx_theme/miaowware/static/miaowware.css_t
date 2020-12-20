@@ -1,0 +1,257 @@
+@import url("bizstyle.css");
+
+/* -- logo ------------------------------------------------------------------ */
+
+img.logo {
+    width: 128px;
+}
+
+p.logo {
+    text-align: center;
+}
+
+/* -- page layout ----------------------------------------------------------- */
+
+body {
+    background-color: {{ theme_darkercolor }};
+    background-image: none;
+    color: white;
+}
+
+div.document {
+    background-color: {{ theme_darkcolor }};
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+div.bodywrapper {
+    border-left: 1px solid #ccc;
+}
+
+div.related {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+div.related ul {
+    border-top: 1px solid {{ theme_maincolor }};
+    border-bottom: 1px solid {{ theme_maincolor }};
+}
+
+div.related ul li {
+    color: {{ theme_darkercolor }};
+}
+
+div.related ul li a {
+    color: {{ theme_darkercolor }};
+}
+
+div.related ul li a:hover {
+    color: {{ theme_darkercolor }};
+}
+
+div.sphinxsidebar h3, div.sphinxsidebar h4 {
+    color: {{ theme_darkercolor }};
+}
+
+div.sphinxsidebar h3 a {
+    color: {{ theme_darkercolor }};
+}
+
+div.sphinxsidebar #searchbox {
+    border-radius: 4px;
+}
+
+div.sphinxsidebar #searchbox input[type="text"] {
+    background-color: {{ theme_darkercolor }};
+    color: white;
+}
+
+div.sphinxsidebar #searchbox input[type="submit"] {
+    background-color: {{ theme_maincolor }};
+    color: {{ theme_darkercolor }};
+}
+
+div.footer {
+    background-color: {{ theme_darkcolor }};
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+/* -- body styles ----------------------------------------------------------- */
+
+h3 {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+div.body h1 a, div.body h2 a, div.body h3 a,
+div.body h4 a, div.body h5 a, div.body h6 a {
+    color: {{ theme_maincolor }} !important;
+}
+
+h1 a.anchor, h2 a.anchor, h3 a.anchor,
+h4 a.anchor, h5 a.anchor, h6 a.anchor {
+    color: #aaa;
+}
+
+h1 a.anchor:hover, h2 a.anchor:hover, h3 a.anchor:hover, h4 a.anchor:hover,
+h5 a.anchor:hover, h6 a.anchor:hover {
+    color: #777;
+    background-color: #eee;
+}
+
+a.headerlink {
+    color: {{ theme_maincolor }} !important;
+}
+
+a.headerlink:hover {
+    background-color: {{ theme_maincolor }};
+    color: {{ theme_darkercolor }} !important;
+}
+
+code {
+    background-color: {{ theme_darkercolor }};
+    padding: 4px;
+    border-bottom: none;
+    border-radius: 4px;
+    color: #eee;
+}
+
+hr {
+    border: 1px solid #abc;
+}
+
+a {
+    color: {{ theme_maincolor }};
+}
+
+a:hover {
+    color: white;
+}
+
+a code {
+    color: {{ theme_maincolor }};
+}
+
+a code:hover {
+    color: white;
+}
+
+pre {
+    border-left: 5px solid {{ theme_darkercolor }};
+    border-right: 5px solid {{ theme_darkercolor }};
+}
+
+div.quotebar {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+}
+
+div.topic {
+    background-color: #f8f8f8;
+}
+
+div.admonition {
+    border: 3px solid #cccccc;
+    background-color: #f7f7f7;
+}
+
+div.admonition p.admonition-title {
+    color: white;
+    border-bottom: 3px solid #cccccc;
+    background-color: #165e83;
+}
+
+div.danger    { border: 3px solid #b7282e; background-color: {{ theme_darkcolor }}; }
+div.error     { border: 3px solid #b7282e; background-color: {{ theme_darkcolor }}; }
+div.warning   { border: 3px solid #f19072; background-color: {{ theme_darkcolor }}; }
+div.caution   { border: 3px solid #f19072; background-color: {{ theme_darkcolor }}; }
+div.attention { border: 3px solid #f19072; background-color: {{ theme_darkcolor }}; }
+div.important { border: 3px solid #f8b862; background-color: {{ theme_darkcolor }}; }
+div.note      { border: 3px solid #f8b862; background-color: {{ theme_darkcolor }}; }
+div.hint      { border: 3px solid #7ebea5; background-color: {{ theme_darkcolor }}; }
+div.tip       { border: 3px solid #7ebea5; background-color: {{ theme_darkcolor }}; }
+
+div.danger p.admonition-title, div.error p.admonition-title {
+    background-color: #b7282e;
+    border-bottom: none;
+}
+
+div.caution p.admonition-title,
+div.warning p.admonition-title,
+div.attention p.admonition-title {
+    background-color: #f19072;
+    border-bottom: none;
+    color: {{ theme_darkcolor }};
+}
+
+div.note p.admonition-title, div.important p.admonition-title {
+    background-color: #f8b862;
+    border-bottom: none;
+    color: {{ theme_darkcolor }};
+}
+
+div.hint p.admonition-title, div.tip p.admonition-title {
+    background-color: #7ebea5;
+    border-bottom: none;
+    color: {{ theme_darkcolor }};
+}
+
+div.versioninfo {
+    border: 1px solid #ccc;
+    background-color: #DDEAF0;
+}
+
+div.viewcode-block:target {
+    background-color: #f4debf;
+    border-top: 1px solid #ac9;
+    border-bottom: 1px solid #ac9;
+}
+
+p.versionchanged span.versionmodified {
+    background-color: #DCE6A0;
+}
+
+dl.field-list > dt {
+    color: {{ theme_maincolor }};
+    background-color: transparent;
+}
+
+dl.field-list > dd {
+    background-color: transparent;
+}
+
+/* -- table styles ---------------------------------------------------------- */
+
+table.docutils {
+    border: 1px solid {{ theme_maincolor }};
+    background-color: {{ theme_darkcolor }};
+}
+
+table.docutils td, table.docutils th {
+    border-right: 1px solid {{ theme_maincolor }};
+    border-bottom: 1px solid {{ theme_maincolor }};
+}
+
+th {
+    color: {{ theme_darkcolor }};
+    background-color: {{ theme_maincolor }};
+}
+
+div.literal-block-wrapper div.code-block-caption {
+    background-color: transparent;
+    border: none;
+    padding: 0 !important;
+}
+
+div.literal-block-wrapper div.code-block-caption span.caption-text {
+    background-color: #202020;
+    padding: 2px 5px;
+    border: 0;
+    border-left: 5px;
+    border-style: solid;
+    border-color: {{ theme_darkercolor }};
+}
