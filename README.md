@@ -4,8 +4,10 @@ This theme is used for sphinx documentation of Miaowware projects.
 
 ## Usage
 
-Install with `pip install -e https://github.com/miaowware/miaowware-sphinx-theme.git`,
-or add `-e https://github.com/miaowware/miaowware-sphinx-theme.git` to your sphinx `requirements.txt`.
+Install with `pip install -e git+https://github.com/miaowware/miaowware-sphinx-theme.git#egg=miaowware_sphinx_theme
+`,
+or add `-e git+https://github.com/miaowware/miaowware-sphinx-theme.git#egg=miaowware_sphinx_theme
+` to your sphinx `requirements.txt`.
 
 In your sphinx `conf.py`, add:
 
