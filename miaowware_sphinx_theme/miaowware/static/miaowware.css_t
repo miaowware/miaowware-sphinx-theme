@@ -241,6 +241,11 @@ th {
     background-color: {{ theme_maincolor }};
 }
 
+table.indextable tr.cap {
+    color: {{ theme_darkcolor }};
+    background-color: {{ theme_maincolor }};
+}
+
 div.literal-block-wrapper div.code-block-caption {
     background-color: transparent;
     border: none;
