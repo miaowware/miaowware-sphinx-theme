@@ -145,6 +145,23 @@ pre {
     border-right: 5px solid {{ theme_darkercolor }};
 }
 
+dt:target, span.highlighted {
+    background-color: #e0bd3d;
+    color: {{ theme_darkercolor }};
+}
+
+dt:target *, span.highlighted * {
+    color: {{ theme_darkercolor }};
+}
+
+rect.highlighted {
+    fill: #e0bd3d;
+}
+
+ul.search li div.context {
+    color: #eee;
+}
+
 div.quotebar {
     background-color: #f8f8f8;
     border: 1px solid #ccc;
